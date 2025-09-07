@@ -8,7 +8,6 @@ module mux2to1(
 assign y = sel ? b : a;  
 endmodule
 //Using Behavioural  Modelling
-Code:
 module mux2to1(
   input wire a,      
   input wire b,     
@@ -19,3 +18,4 @@ always @(*) begin
     else y = a;
   end
 endmodule
+
